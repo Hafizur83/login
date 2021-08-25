@@ -1,0 +1,56 @@
+
+@media (min-width:1200px){
+    
+}
+
+@media (max-width: 1199px){
+
+}
+@media (max-width: 1199px){
+	.footer_wrapper .col-md-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer_right_menu{
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .language {
+        float: right;
+    }
+}
+@media (max-width: 991px){
+    .login_box{
+        max-width: 424px;
+        flex: 1;
+    }
+}
+
+@media (max-width: 767px){
+    .dropdown-menu{
+        left: -233px !important;
+    }
+    .footer_left_menu{
+        text-align: center;
+    }
+    .language {
+        float: none;
+    }
+}
+
+@media (max-width: 575px){
+   
+}
+@media (max-width: 479px){
+    
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	

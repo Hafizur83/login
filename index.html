@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title  -->
+    <title>Template</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="main_content">
+    <div class="container">
+   <div class="login_content">
+       <div class="phones_call_wrapper d-none d-lg-block">
+           <div class="phones_call set-bg" data-setbg="images/phones.png">
+               <div class="phone_slider owl-carousel">
+                  <div class="phone_slider_item">
+                      <img src="images/slide-2.jpg" alt="">
+                  </div>
+                  <div class="phone_slider_item">
+                      <img src="images/slide-1.png" alt="">
+                  </div>
+                  <div class="phone_slider_item">
+                      <img src="images/slide-3.jpg" alt="">
+                  </div>
+                  <div class="phone_slider_item">
+                      <img src="images/slide-4.jpg" alt="">
+                  </div>
+                  <div class="phone_slider_item">
+                      <img src="images/slide-5.jpg" alt="">
+                  </div>
+               </div>
+           </div>
+       </div>
+    <div class="login_wrapper">
+        <div class="login_box">
+           <div class="login_logo">
+               <img src="images/logo.png" alt="logo">
+           </div>
+            <div class="social_auth_links">
+               <h6>Sign up to make money and interact with your fans!</h6>
+                <a href="#" class="btn twitter-btn">
+                    <i class="fab fa-twitter"></i>
+                    <span>Sign in with twitter</span>
+                </a>
+                <a href="#" class="btn google-btn">
+                    <img src="images/icons8-google.svg" alt="">
+                    <span>Sign in with Google</span>
+                </a>
+                <span class="or_break">OR</span>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" class="form-control" required>
+                    <label>Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="password" required>
+                    <label>Password</label>
+                    <span id="eye" class="fa fa-eye"></span>
+                    <a href="#" class="forgot_pass">Forgot password?</a>
+                </div>
+                <div class="form-group">
+                    <button class="btn primary-btn">Log In</button>
+                </div>
+            </form>
+            <div class="login_form_issue">
+                <p>Visit Help Center for additional help if you are unable to log in with your existing OnlyFans Account</p>
+            </div>
+            <h5>Don't have an account yet?</h5>
+              <a href="#" class="signup">Sign up for OnlyFans.com</a>
+        </div>
+    </div>
+   </div>
+    </div>
+     <div id="footer">
+          <div class="container">
+          <div class="footer_wrapper">
+          <div class="row">
+              <div class="col-lg-4 col-md-12">
+                  <div class="footer_left_menu">
+                      <a href="#">©2021 OnlyFans</a>
+                      <a href="#">Help</a>
+                      <a href="#">About</a>
+                      <a href="#">Contact</a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <div class="language">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          <i class="fa fa-globe mr-1"></i>English<i class="fa fa-angle-down ml-2"></i>
+                      </a>
+                       <div class="dropdown-menu" style="">
+                          <a class="active" href="#"><span class="dropdown_icon"></span> English</a>
+                          <a href="#"><span class="dropdown_icon"></span> Another</a>
+                          <a href="#"><span class="dropdown_icon"></span> Something</a>
+                        <a href="#"><span class="dropdown_icon"></span> English</a>
+                          <a href="#"><span class="dropdown_icon"></span> Another</a>
+                          <a href="#"><span class="dropdown_icon"></span> Something</a>
+                          <a href="#"><span class="dropdown_icon"></span> Something</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+               <div class="col-lg-8 col-md-12">
+                  <div class="footer_right_menu">
+                      <a href="#">Blog</a>
+                      <a href="#">Branding</a>
+                      <a href="#">Store</a>
+                      <a href="#">Terms of Service</a>
+                      <a href="#">DMCA</a>
+                      <a href="#">Privacy</a>
+                      <a href="#">How it works</a>
+                      <a href="#">Referrals</a>
+                      <a href="#">USC 2257</a>
+                      <a href="#">Acceptable Use Policy</a>
+                      <a href="#">Complaints Policy</a>
+                      <a href="#">Standard Contract between Fan and Creator</a>
+                      <a href="#">Statement</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+  
+
+  
+  
+  
+<!--   <div class="mt-5"></div>-->
+   
+    <!-- JavaScript Plugins -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Main js -->
+    <script>
+    $('.set-bg').each(function () {
+        var bg = $(this).data('setbg');
+        $(this).css('background-image', 'url(' + bg + ')');
+    });
+        
+        $(".phone_slider").owlCarousel({
+        loop: true,
+        margin: 0,
+        items: 1,
+        dots: false,
+        smartSpeed: 1200,
+        autoHeight: false,
+        autoplay: true
+    });
+        const password = $('#password');
+    $('#eye').on('click', function(){
+        if(password.prop('type') == 'password'){
+            $(this).addClass('fa-eye-slash')
+            password.attr('type','text')
+        }else{
+            $(this).removeClass('fa-eye-slash')
+            password.attr('type','password')
+        }
+        
+    })
+        
+        
+    </script>
+
+
+</body>
+
+</html>
